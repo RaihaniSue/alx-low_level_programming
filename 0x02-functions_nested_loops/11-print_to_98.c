@@ -2,21 +2,22 @@
 #include <stdio.h>
 /**
  * print_to_98 - Entry point
- * @n: all natural numbers from one to 98
- * Return: the asked numbers
+ * @n: is given parameter
+ * Return: it is a void function
  */
 void print_to_98(int n)
 {
-	if (n < 98)
+	while (n != 98)
 	{
-		for (n = n; n < 98; n++)
-			printf("%d, ", n);
-		printf("%d\n", 98);
+		printf("%d, ", n);
+		if (n < 98)
+		{
+			n++;
+		}
+		else
+		{
+			n--;
+		}
 	}
-	else
-	{
-		for (n = n; n > 98; n--)
-			printf("%d, ", n);
-		printf("%d\n", 98);
-	}
+	printf("%d\n", 98);
 }
