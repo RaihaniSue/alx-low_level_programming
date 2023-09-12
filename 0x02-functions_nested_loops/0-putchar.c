@@ -7,6 +7,6 @@
 int main(void)
 {
 	char a=_putchar;
-	putchar('%c', a);
+	_putchar('%c', a);
 	return (0);
 }
