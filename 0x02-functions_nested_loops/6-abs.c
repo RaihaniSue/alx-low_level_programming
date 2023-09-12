@@ -1,13 +1,11 @@
 #include "main.h"
 /**
  * _abs - Entry point
- *
+ * @r: the given parameter value
  * Return: positive value always
  */
-int _abs(int)
+int _abs(int r)
 {
-	int r;
-
 	if (r >= 0)
 	{
 		return (r);
