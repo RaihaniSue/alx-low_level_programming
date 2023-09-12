@@ -1,14 +1,13 @@
 #include "main.h"
 /*
- * main - Entry point
+ * print_alphabet - Entry point
  *
- * 
  */
 void print_alphabet(void)
 {
 	char al;
 
-	for(al = 'a'; al <= 'z'; al++)
+	for (al = 'a'; al <= 'z'; al++)
 	{
 		_putchar(al);
 	}
