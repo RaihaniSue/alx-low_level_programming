@@ -2,7 +2,7 @@
 /*
  * main - Entry point
  *
- * Return: 0 Always (Succces)
+ * 
  */
 void print_alphabet(void)
 {
@@ -10,8 +10,7 @@ void print_alphabet(void)
 
 	for(alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		_putchar('a');
+		_putchar('alpha');
 	}
 	_putchar('\n');
-	return ();
 }
