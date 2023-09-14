@@ -20,7 +20,7 @@ void print_line(int n)
 	{
 		int k = -n;
 
-		for (i = 1; i <= k ; i++)
+		for (i = 1; i <= k; i++)
 		{
 			_putchar('_');
 		}
