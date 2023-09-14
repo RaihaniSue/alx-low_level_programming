@@ -9,19 +9,19 @@ void print_line(int n)
 {
 	int i;
 	int n;
-	int k;
 
 	if (n >= 0)
 	{
-		for (i = '0'; i <= 'n'; i++)
+		for (i = 0; i <= n; i++)
 		{
 			_putchar(n);
 		}
 	}
 	else if (n < 0)
 	{
-		k = -n;
-		for (i = '0'; i <= 'k'; i++)
+		int k = -n;
+
+		for (i > 0; i <= k ; i++)
 		{
 			_putchar(k);
 		}
