@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point
+ * _isupper - Entry point
  * @c: the given parameter
  * Return: 1 if uppercase 0 if lower case
  */
