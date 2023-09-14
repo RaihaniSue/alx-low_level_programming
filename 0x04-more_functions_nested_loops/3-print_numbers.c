@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * print_numbers - Entry point
+ *
+ * Return: numbers printed
+ */
+void print_numbers(void)
+{
+	int i;
+
+	while (i >= 0 && i <= 9)
+	{
+		_putchar(i);
+	}
+	_putchar(0);
+}
