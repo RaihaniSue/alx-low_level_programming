@@ -3,7 +3,6 @@
 /**
  * print_diagonal -  entry point
  * @n: the parameter
- *
  * Return: return the diag
  */
 void print_diagonal(int n)
