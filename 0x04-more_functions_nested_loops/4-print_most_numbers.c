@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_most_numbers - Entry point
  * Return: the printed numbers except for 2 and 4
@@ -7,7 +8,7 @@ void print_most_numbers(void)
 {
 	char i;
 
-	for (i = '0'; i <= '9', i++)
+	for (i = '0'; i <= '9'; i++)
 	{
 		if (i != '2' && i != '4')
 		{
