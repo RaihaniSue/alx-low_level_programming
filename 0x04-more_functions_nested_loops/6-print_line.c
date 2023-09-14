@@ -16,7 +16,7 @@ void print_line(int n)
 			_putchar('_');
 		}
 	}
-	else
+	else if (n < 0)
 	{
 		int k = -n;
 
