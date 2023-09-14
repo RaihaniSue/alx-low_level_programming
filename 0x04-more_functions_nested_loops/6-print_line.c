@@ -9,6 +9,7 @@ void print_line(int n)
 {
 	int i;
 	int n;
+	int k;
 
 	if (n >= 0)
 	{
@@ -17,6 +18,13 @@ void print_line(int n)
 			_putchar(n);
 		}
 	}
-	_putchar(-n);
+	else if (n < 0)
+	{
+		k = -n;
+		for (i = '0'; i = 'k'; i++)
+		{
+			_putchar(k);
+		}
+	}
 	_putchar('\n');
 }
