@@ -4,7 +4,7 @@
  * _strcpy - Entry point
  * @dest: first pointer
  * @src: second pointer
- * return: return the dest
+ * return: the dest
  */
 char *_strcpy(char *dest, char *src)
 {
