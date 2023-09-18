@@ -1,4 +1,5 @@
 #include "main.h"
+#include <std.io>
 /**
  * print_array - Entry point
  * @a: first pointer
