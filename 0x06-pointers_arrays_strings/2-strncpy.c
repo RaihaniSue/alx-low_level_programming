@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _strncpy - Entry point
- * @dest: the destination 
+ * @dest: the destination
  * @src: the source
  * @n: the integer
  * Return: the copied string to dest
