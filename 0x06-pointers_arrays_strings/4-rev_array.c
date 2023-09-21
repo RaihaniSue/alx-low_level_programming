@@ -4,7 +4,6 @@
  * reverse_array - Entry point
  * @a: the first pointer
  * @n: the second pointer
- * Return: 0 Always for success
  */
 void reverse_array(int *a, int n)
 {
