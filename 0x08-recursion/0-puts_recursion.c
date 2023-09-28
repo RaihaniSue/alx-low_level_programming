@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * _puts_recursion - Entry point
- * main - the recursion
  * @s: the string to print
  * Return: the character
  */
@@ -15,6 +14,11 @@ void _puts_recursion(char *s)
 	_putchar(*s);
 	_puts_recursion(s + 1);
 }
+/**
+ * main - recursion function
+ *
+ * Return: 0 Always for success
+ */
 int main(void)
 {
 	char *str = "Puts with recursion";
