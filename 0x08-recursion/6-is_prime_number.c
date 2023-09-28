@@ -25,5 +25,9 @@ int devisor(int i, int j)
  */
 int is_prime_number(int n)
 {
-	return (devisor(n, j));
+	if (n <= 1)
+	{
+		return (0);
+	}
+	return (devisor(n, 2));
 }
