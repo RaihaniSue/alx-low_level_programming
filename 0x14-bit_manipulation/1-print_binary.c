@@ -1,19 +1,27 @@
-unsigned long int _pow(unsigned int base, unsigned int power)
+#include "main.h"
+/**
+ * power_num - entry point
+ * @b: base
+ * @pwr: the power
+ *
+ * Return: the powered number
+ */
+unsigned long int power_num(unsigned int b, unsigned int pwr)
 {
 	unsigned long int num;
 	unsigned int a;
 
 	num = 1;
-	for (a = 1; a <= power; a++)
-		num *= base;
+	for (a = 1; a <= pwr; a++)
+		num *= b;
 	return (num);
 }
 
 /**
- * print_binary - prints a number in binary notation
- * @n: number to print
+ * print_binary - second entry point
+ * @n: the represented number
  *
- * Return: void
+ * Return: binary representation
  */
 void print_binary(unsigned long int n)
 {
@@ -21,7 +29,7 @@ void print_binary(unsigned long int n)
 	char flag;
 
 	flag = 0;
-	divisor = _pow(2, sizeof(unsigned long int) * 8 - 1);
+	divisor = power_num(2, sizeof(unsigned long int) * 8 - 1);
 	while (divisor != 0)
 	{
 		check = n & divisor;
